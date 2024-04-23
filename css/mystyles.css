@@ -1,0 +1,49 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    background-color:lightpink
+}
+
+h1 {
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   color: black;
+}
+
+/* div style */
+
+.common {
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+position: absolute;
+}
+.top {
+    top: 0px;
+    left: 0px;
+    right: 0px;
+}
+.middle {
+    top: 100px;
+    left: 0px;
+    right: 0px;
+    
+}
+.bottom {
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 1;
+    text-align: center;
+    background-color: aliceblue;
+    font-style: italic;
+    font-weight: bold;
+}
+.imgcenter {
+    display: block;
+    margin: auto;
+    border: 5px solid bisque; 
+    max-width: 50%; 
+}
+
+.center-text {
+    text-align: center;
+}
